@@ -1,0 +1,6 @@
+tensorflow-directml
+numpy
+scikit-learn
+scipy
+matplotlib
+imblearn

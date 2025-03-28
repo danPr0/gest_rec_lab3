@@ -1,0 +1,10 @@
+services:
+  gr-lab3:
+    build:
+      context: .
+    container_name: gr-lab3
+    command: start-notebook.py --NotebookApp.token='my-token'
+    ports:
+      - 8889:8888
+    volumes:
+      - /c/Users/dan/PycharmProjects/univ/4-year/2-term/gest_reg/lab3:/home/jovyan/work
